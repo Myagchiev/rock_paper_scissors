@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    width: 550px;
+    height: auto;
+    margin-top: 30vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+button {
+    border-radius: 30px;
+    transition: 0.1s;
+    margin:20px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+#playerScore,
+#computerScore {
+    font-size: 25px;
+    font-weight: 600;
+}

@@ -7,6 +7,17 @@
   <title>Document</title>
 </head>
 <body>
-  <script src="./script.js"></script>
+  <div class="main">
+    <div class="center">
+      <h1>Игра: Камень, Ножницы, Бумага</h1>
+      <div id="playerScore">Счет игрока: 0</div>
+      <div id="computerScore">Счет компьютера: 0</div>
+      <button onclick="play('Камень')"><img src="./icons8-hand-rock-64.png" alt="камень"></button>
+      <button onclick="play('Ножницы')"><img src="./icons8-hand-scissors-64.png" alt="ножницы"></button>
+      <button onclick="play('Бумага')"><img src="./icons8-hand-64.png" alt="бумага"></button>
+      <h2 id="result"></h2>
+    </div>
+  </div>
+      <script src="./script.js"></script>
 </body>
 </html>
